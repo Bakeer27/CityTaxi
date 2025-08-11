@@ -22,7 +22,7 @@ class _SearchLocationPageState extends State<SearchLocationPage> {
   LatLng? _pickupLocation; // Store pickup location
   LatLng? _dropOffLocation; // Store drop-off location
   final _places = GoogleMapsPlaces(
-      apiKey: "AIzaSyCrTqJOEyNjvKHmYhVxOTtlH7FcTFBYfUA"); // API key
+      apiKey: "# Your API Key"); // API key
   late loc.Location _location; // Use 'loc' alias for Location
   Marker? _pickupMarker; // Pickup location marker
   Marker? _dropOffMarker; // Drop-off location marker
